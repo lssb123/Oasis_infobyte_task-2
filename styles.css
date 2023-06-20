@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #6eabe5, #2759d8);
+    color: white;
+  }
+  
+  #header {
+      background: linear-gradient(to bottom, #6eabe5, #2759d8);
+  
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 0;
+  }
+  
+  #content {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, #6eabe5, #2759d8);
+    
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+  }
+  
+  .image {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .quot {
+    font-style: italic;
+    color: white
+    /* text-align: center;
+    margin-top: 40px; */
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #555;
+  }
+  
+
+    /* body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    } */
+
+    #head {
+      /* background-color: #333; */
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    #quote-container {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .quote {
+      position: relative;
+      padding-left: 30px;
+      margin-bottom: 20px;
+    }
+
+    .quote:before {
+      content: "\201C"; /* Use quotation mark character */
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: 48px;
+      color: #ccc;
+    }
+
+    .quote-text {
+      font-size: 20px;
+      font-style: italic;
+      margin-bottom: 10px;
+      color: black;
+    }
+
+    .quote-author {
+      font-size: 16px;
+      font-weight: bold;
+      color: #666;
+    }
+
+    .quote-divider {
+      height: 1px;
+      background-color: #ccc;
+      margin: 10px 0;
+    }
+  /*responsive website */
+
+  @media screen and (max-width: 600px) {
+    #content {
+      width: 100%;
+      padding: 10px;
+    }
+    
+    .image {
+      float: none;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
